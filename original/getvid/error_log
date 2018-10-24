@@ -1,0 +1,218 @@
+[24-Oct-2018 12:19:28 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 40
+[24-Oct-2018 12:19:28 UTC] PHP Stack trace:
+[24-Oct-2018 12:19:28 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:19:28 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:19:28 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 44
+[24-Oct-2018 12:19:28 UTC] PHP Stack trace:
+[24-Oct-2018 12:19:28 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:19:28 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:20:59 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 40
+[24-Oct-2018 12:20:59 UTC] PHP Stack trace:
+[24-Oct-2018 12:20:59 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:20:59 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:20:59 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:20:59 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 44
+[24-Oct-2018 12:20:59 UTC] PHP Stack trace:
+[24-Oct-2018 12:20:59 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:20:59 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:20:59 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:33:29 UTC] PHP Notice:  Undefined offset: 7 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 17
+[24-Oct-2018 12:33:29 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:29 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:29 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: url_encoded_fmt_stream_map in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 21
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: adaptive_fmts in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 27
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 40
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 44
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/index.php:20
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: title in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 106
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getBaseInfo() /home/rahpt/public_html/getvid/index.php:23
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: title in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 235
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: url in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 236
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Warning:  get_headers(): This function may only be used against URLs in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 213
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:30 UTC] PHP   5. get_headers() /home/rahpt/public_html/getvid/YoutubeDownloader.php:213
+[24-Oct-2018 12:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 215
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: Content-Length in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 256
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 259
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: type in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 260
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 263
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 266
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: title in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 235
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: url in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 236
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Warning:  get_headers(): This function may only be used against URLs in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 213
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:30 UTC] PHP   5. get_headers() /home/rahpt/public_html/getvid/YoutubeDownloader.php:213
+[24-Oct-2018 12:33:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 215
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: Content-Length in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 256
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 259
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: type in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 260
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 263
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 266
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:30 UTC] PHP   2. YoutubeDownloader->getDownloadsInfo() /home/rahpt/public_html/getvid/index.php:24
+[24-Oct-2018 12:33:30 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:288
+[24-Oct-2018 12:33:30 UTC] PHP Notice:  Undefined index: description in /home/rahpt/public_html/getvid/index.php on line 90
+[24-Oct-2018 12:33:30 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:30 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/index.php:0
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: url_encoded_fmt_stream_map in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 21
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: adaptive_fmts in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 27
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 40
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 44
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getFullInfo() /home/rahpt/public_html/getvid/YoutubeDownloader.php:295
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 299
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: title in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 235
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: url in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 236
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Warning:  get_headers(): This function may only be used against URLs in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 213
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:44 UTC] PHP   5. get_headers() /home/rahpt/public_html/getvid/YoutubeDownloader.php:213
+[24-Oct-2018 12:33:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 215
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP   4. YoutubeDownloader::getResponseHeaders() /home/rahpt/public_html/getvid/YoutubeDownloader.php:254
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: Content-Length in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 256
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 259
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: type in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 260
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined offset: 1 in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 263
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Notice:  Undefined index: itag in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 266
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. YoutubeDownloader->getDownloadInfoOne() /home/rahpt/public_html/getvid/YoutubeDownloader.php:300
+[24-Oct-2018 12:33:44 UTC] PHP Warning:  readfile(&amp;title=): failed to open stream: No such file or directory in /home/rahpt/public_html/getvid/YoutubeDownloader.php on line 313
+[24-Oct-2018 12:33:44 UTC] PHP Stack trace:
+[24-Oct-2018 12:33:44 UTC] PHP   1. {main}() /home/rahpt/public_html/getvid/download.php:0
+[24-Oct-2018 12:33:44 UTC] PHP   2. YoutubeDownloader->downloadForItag() /home/rahpt/public_html/getvid/download.php:21
+[24-Oct-2018 12:33:44 UTC] PHP   3. readfile() /home/rahpt/public_html/getvid/YoutubeDownloader.php:313
