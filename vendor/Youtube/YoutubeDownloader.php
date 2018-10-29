@@ -1,47 +1,64 @@
 <?php
+namespace Youtube;
 
 class YoutubeDownloader
 {
+
     protected $url;
     protected $fullInfo;
+    protected $videoId;
 
     public function __construct($url)
     {
         $this->url = $url;
+        $this->getVideoId($url);
+    }
+
+    public function getVideoId($url)
+    {
+        preg_match("/^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/i", $this->url, $matches);
+        $this->videoId = $matches[7];
+        return $this->videoId;
     }
 
     public function getFullInfo()
     {
         if (is_null($this->fullInfo)) {
-            preg_match("/^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/i", $this->url, $matches);
-            $videoId = $matches[7];
-            $clearContent = file_get_contents("https://www.youtube.com/watch?v=$videoId");
+            $clearContent = file_get_contents(
+                sprintf("https://www.youtube.com/watch?v=%s", $this->videoId)
+            );
             preg_match('/ytplayer.config = (\{.+});ytplayer/', $clearContent, $mathes);
             $configData = json_decode($mathes[1], true);
+
             $streamList = explode(',', $configData['args']['url_encoded_fmt_stream_map']);
             $configData['args']['url_encoded_fmt_stream_map'] = array();
             foreach ($streamList AS $stream) {
                 parse_str($stream, $res);
                 $configData['args']['url_encoded_fmt_stream_map'][] = $res;
             }
+
             $streamList = explode(',', $configData['args']['adaptive_fmts']);
             $configData['args']['adaptive_fmts'] = array();
-            foreach ($streamList AS $stream) {
+            foreach ($streamList as $stream) {
                 parse_str($stream, $res);
                 $configData['args']['adaptive_fmts'][] = $res;
             }
 
             $this->fullInfo = $configData['args'];
             $this->fullInfo['html'] = $clearContent;
-            $this->fullInfo['video_id'] = $videoId;
+            $this->fullInfo['video_id'] = $this->videoId;
             $jsPath = $configData['assets']['js'];
             $jsPlayerClear = file_get_contents('https://www.youtube.com' . $jsPath);
+
             preg_match('/set\("signature",\s*(?:([^(]*).*)\)/', $jsPlayerClear, $mathes);
-            $signParserFnName = $mathes[1];
+            $signParserFnName = (count($mathes) > 0) ? $mathes[1] : null;
+
             preg_match("/$signParserFnName=(function\(.+;)/", $jsPlayerClear, $mathes);
-            $signFnBody = $mathes[1];
+            $signFnBody = (count($mathes) > 0) ? $mathes[1] : null;
+
             preg_match("/(\w+)\.\w+\([\w\d,]+\)/", $signFnBody, $mathes);
-            $helperObjName = $mathes[1];
+            $helperObjName = (count($mathes) > 0) ? $mathes[1] : null;
+
             preg_match_all("/$helperObjName\.(\w+)\(\w+,(\d+)\);/", $signFnBody, $matches);
             $startPos = strpos($jsPlayerClear, "$helperObjName={");
             $calcRule = array();
@@ -94,7 +111,6 @@ JS;
             $calcSignExpression = str_replace('__SIGN_FN_BODY__', $signFnBody, $calcSignExpression);
 
             $this->fullInfo['jsSignatureGen'] = $calcSignExpression;
-
         }
         return $this->fullInfo;
     }
@@ -189,7 +205,7 @@ JS;
         $sign = str_split($signatureEncoded);
         foreach ($steps AS $step) {
             $fn = $step['function'];
-            $param = (int)$step['param'];
+            $param = (int) $step['param'];
 
             switch ($fn) {
                 case 'reverse':
@@ -221,7 +237,8 @@ JS;
         return $headers;
     }
 
-    public static function getFileSizeHuman($size){
+    public static function getFileSizeHuman($size)
+    {
         if (!$size) {
             return '-';
         }
@@ -253,7 +270,7 @@ JS;
 
         $headers = self::getResponseHeaders($url);
         $downloadInfo = array();
-        $downloadInfo['fileSize'] = (int)$headers['Content-Length'];
+        $downloadInfo['fileSize'] = (int) $headers['Content-Length'];
         $downloadInfo['fileSizeHuman'] = self::getFileSizeHuman($downloadInfo['fileSize']);
         $downloadInfo['url'] = $url;
         $downloadInfo['youtubeItag'] = $fmtsItem['itag'];

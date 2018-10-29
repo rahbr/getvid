@@ -1,3 +1,8 @@
 {
-    "name": "getvid"
+    "name": "getvid",
+    "autoload": {
+        "psr-0": {
+            "Youtube": "vendor/"
+        }
+    }
 }

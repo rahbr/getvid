@@ -1,4 +1,9 @@
 <?php
+
+require_once 'vendor/autoload.php';
+
+use Youtube\YoutubeDownloader;
+
 $response = array(
     'data' => null,
     'error' => null,
@@ -7,10 +12,10 @@ $isResponse = false;
 $isError = false;
 $isSuccessResponse = false;
 $providerName = null;
-$url = '';
+$url = 'https://www.youtube.com/watch?v=jNQXAC9IVRw';
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $isResponse = true;
-    require_once __DIR__ . '/YoutubeDownloader.php';
     try {
         if (!isset($_POST['url']) || !trim($_POST['url'])) {
             throw new VideoDownloaderException("Url does not set");
