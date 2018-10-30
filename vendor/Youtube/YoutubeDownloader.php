@@ -1,8 +1,8 @@
 <?php
 namespace Youtube;
 
-use Youtube\Model\ItagInfoModel;
-
+use Youtube\Models\ItagInfoModel;
+use Youtube\Helpers\YoutubeHelper;
 class YoutubeDownloader
 {
 
@@ -168,15 +168,6 @@ JS;
         return $headers;
     }
 
-    public static function getFileSizeHuman($size)
-    {
-        if (!$size) {
-            return '-';
-        }
-
-        return round($size / 1024 / 1024, 2) . ' MB';
-    }
-
     public function getDownloadInfoOne($fmtsItem)
     {
         $fullInfo = $this->getFullInfo();
@@ -202,7 +193,7 @@ JS;
         $headers = self::getResponseHeaders($url);
         //$downloadInfo = raray();
         $downloadInfo['fileSize'] = (int) $headers['Content-Length'];
-        $downloadInfo['fileSizeHuman'] = self::getFileSizeHuman($downloadInfo['fileSize']);
+        $downloadInfo['fileSizeHuman'] = YoutubeHelper::getFileSizeHuman($downloadInfo['fileSize']);
         $downloadInfo['url'] = $url;
         $downloadInfo['youtubeItag'] = $fmtsItem['itag'];
         $downloadInfo['fileType'] = explode(';', $fmtsItem['type']);
@@ -239,7 +230,7 @@ JS;
         $fullInfo = $this->getFullInfo();
         $fmts = $fullInfo['url_encoded_fmt_stream_map'];
         $fmts = array_merge($fmts, $fullInfo['adaptive_fmts']);
-        foreach ($fmts AS $item) {
+        foreach ($fmts as $item) {
             if ($item['itag'] == $itag) {
                 $dlInfo = $this->getDownloadInfoOne($item);
                 set_time_limit(0);

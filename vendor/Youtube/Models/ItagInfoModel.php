@@ -1,7 +1,7 @@
 <?php
-namespace Youtube\Model;
+namespace Youtube\Models;
 
-use Youtube\Model\ItagInfoData;
+use Youtube\Models\ItagInfoData;
 
 /**
  * Description of ITagInfoModel
@@ -24,7 +24,10 @@ class ItagInfoModel
     public function __construct($id = null)
     {
         $this->id = $id;
-
+        if (!isset(ItagInfoData::getItagInfo()[$id])) {
+            // log error ITag not found!
+            return;
+        }
         $properties = ItagInfoData::getItagInfo()[$id];
         foreach ($properties as $key => $value) {
             $this->{$key} = $value;

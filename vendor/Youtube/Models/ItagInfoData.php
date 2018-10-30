@@ -1,5 +1,5 @@
 <?php
-namespace Youtube\Model;
+namespace Youtube\Models;
 
 /**
  * Description of ItagInfoModel
